@@ -22,6 +22,8 @@ package by.itstep.javatraining.revision.task;
 
 public class Task05 {
     public static int task05(int number) {
-        return 0;
+        int h = number;
+        number = (number % 2 != 0) ? ++number : number+2;
+        return number;
     }
 }
